@@ -1,5 +1,5 @@
 import './ContactMe.css'
-export default function ConctactMe () {
+export default function ContactMe () {
 	return(
 		<>
 		</>
