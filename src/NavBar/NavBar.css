@@ -32,3 +32,12 @@ nav a.active {
   background: var(--color3);
   color: var(--color5);
 }
+
+.me {
+  top: 1.5rem;
+  left: 15%;
+  position: fixed;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 3rem;
+}

@@ -1,17 +1,21 @@
-import { Router } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import ContactMe from "./Contact Me/ContactMe"
 import NavBar from "./NavBar/NavBar"
 import Projects from "./Projects/Projects"
 import Skills from "./Skills/Skills"
+import About from "./About/About"
 
 function App() {
 
   return (
     <>
-      <Router path='NavBar' ><NavBar/></Router>
-      <Router path='Skills' ><Skills/></Router>
-      <Router path='Projects' ><Projects/></Router>
-      <Router path='ConctactMe' ><ContactMe/></Router>
+    <NavBar/>
+    <Routes>
+      <Route exact path='About' Component={About}/>
+      <Route exact path='Skills' Component={Skills}/>
+      <Route exact path='Projects' Component={Projects}/>
+      <Route exact path='ConctactMe' Component={ContactMe}/>
+    </Routes>
     </>
   )
 }
