@@ -1,0 +1,11 @@
+.containerAbout {
+	margin-top: 25vh;
+	margin-left: 20vw;
+}
+
+.inputs{
+	display: block;
+	margin: 1rem;
+	padding: 1rem;
+	width: 40rem;
+}
