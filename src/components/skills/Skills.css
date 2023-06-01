@@ -1,0 +1,15 @@
+.skills {
+	height: 50rem;
+	width: 50rem;
+}
+
+.skill{
+	height: 5rem;
+	width: 5rem;
+}
+
+.skill-img{
+	height: 5rem;
+	width: 5rem;
+	position: relative;
+}
