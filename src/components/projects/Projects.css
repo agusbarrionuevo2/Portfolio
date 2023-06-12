@@ -4,6 +4,8 @@
     grid-template-columns: repeat(3, 22em);
     justify-content: center;
     gap: 2.5rem;
+    position: fixed;
+    top: 7rem;
 }
 
 .portfolio__item {

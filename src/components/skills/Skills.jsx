@@ -10,8 +10,7 @@ const Skill = ({ name }) => (
 
 export default function Skills() {
   return (
-    <section>
-      <h2>Technologies</h2>
+    <section className="skills-box">
       <div className="skills">
         <Skill name="HTML" />
         <Skill name="CSS" />
