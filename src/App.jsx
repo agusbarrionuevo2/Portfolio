@@ -10,10 +10,10 @@ import './App.css'
 function App() {
   return (
     <div className="crop">
-      <NavLink to='About'><img src={img} className="me"/></NavLink>
+      <NavLink to='/'><img src={img} className="me"/></NavLink>
       <NavBar />
       <Routes>
-        <Route exact path="About" Component={About} />
+        <Route exact path="/" Component={About} />
         <Route exact path="Skills" Component={Skills} />
         <Route exact path="Projects" Component={Projects} />
         <Route exact path="ContactMe" Component={ContactMe} />

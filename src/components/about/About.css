@@ -3,3 +3,35 @@
 	width: 75%;
 	padding: 100px 0;
 }
+
+.link {
+	color: black;
+	height: 50rem;
+}
+
+.link-btn {
+	width: fit-content;
+	height: 1.5rem;
+	margin-top: 10px;
+}
+
+
+.social-links {
+	margin: auto;
+	width: fit-content;
+	padding-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.btn-cv{
+	text-decoration: none;
+	color: black;
+}
+
+.about-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+}
