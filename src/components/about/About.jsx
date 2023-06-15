@@ -13,10 +13,10 @@ export default function About () {
 				<p className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nostrum ex excepturi ad animi voluptates, quos earum iure molestiae accusantium reprehenderit, voluptate mollitia. Libero, et quo delectus magni soluta quod! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel non cupiditate, impedit veritatis necessitatibus culpa consequatur excepturi obcaecati molestiae officia soluta, repellat deleniti tenetur modi quidem minima, corporis aut voluptas!</p>
 			</div>
 			<div className='social-links'>
-				<button className='link-btn'><a className='link' href='https://www.linkedin.com/in/agustin-barrionuevo-a7a25b238/'L target='_blank'><BsLinkedin/></a></button>
-				<button className='link-btn' ><a className='link' href='https://github.com/agusbarrionuevo2' target='_blank'><BsGithub/></a></button>
-				<button className='link-btn'><a className='link' href="mailto:agubarrionuevo@gmail.com" target="_blank" without rel="noreferrer" ><MdMail/></a></button>
-				<button className='link-btn'><a href={Curriculum} download className='btn-cv'>Download CV Here <HiOutlineDownload/></a></button>
+				<a className='link' href='https://www.linkedin.com/in/agustin-barrionuevo-a7a25b238/'L target='_blank'><BsLinkedin/><span></span></a>
+				<a className='link' href='https://github.com/agusbarrionuevo2' target='_blank'><BsGithub/><span></span></a>
+				<a className='link' href="mailto:agubarrionuevo@gmail.com" target="_blank" without rel="noreferrer" ><MdMail/><span></span></a>
+				<a className='link' href={Curriculum} download> <HiOutlineDownload/><span></span></a>
 			</div>
 		</div>
 	)
