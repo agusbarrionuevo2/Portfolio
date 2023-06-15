@@ -1,5 +1,5 @@
 .containerAbout {
-	margin-top: 25vh;
+
 	margin-left: 20vw;
 }
 
@@ -9,3 +9,9 @@
 	padding: 1rem;
 	width: 40rem;
 }
+
+.title-form{
+	margin: 0px;
+}
+
+
