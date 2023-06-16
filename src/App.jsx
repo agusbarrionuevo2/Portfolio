@@ -5,6 +5,7 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import About from "./components/about/About";
 import img from './assets/Yo2.png'
+import Links from "./components/links/links";
 import './App.css'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <div className="blur">
         <NavLink to='/'><img src={img} className="me"/></NavLink>
         <NavBar />
+        <Links/>
         <Routes>
           <Route exact path="/" Component={About} />
           <Route exact path="Skills" Component={Skills} />

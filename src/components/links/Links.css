@@ -1,0 +1,15 @@
+.social-links {
+	display: block;
+	flex-direction: row;
+	text-align: center;
+	position: fixed;
+	right: 0px; bottom: 0px;
+	padding: 20px;
+}
+
+.link {
+	color:	white;
+	text-decoration: none;
+	padding-left: 1rem;
+}
+

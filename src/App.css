@@ -29,6 +29,5 @@ body{
 	height: 4.5rem;
 	border-radius: 3rem;
 	left: 15%;
-	border:3px solid white;
+	border: 3px solid  rgba(255, 255, 255, 0.3);;
 }
-
