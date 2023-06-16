@@ -2,22 +2,24 @@
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0ch;
-	height: 20rem;
+	height: 18rem;
 	place-items: center;
-	border:2px solid black;
 	text-align: center;
 	border-radius: 10px;
-}
-
-section.skills-box{
-	margin: auto;
-	display: block;
+	margin: 0;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
 	width: 50%;
-	padding: 100px 0;
 }
 
+.title-skills{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 25%;
+	top:20%
+}
 .skill-img{
 	height: 5rem;
 	width: 5rem;

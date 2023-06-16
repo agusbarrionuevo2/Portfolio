@@ -4,7 +4,7 @@ export default function ContactMe () {
 	const form = useRef();
 	return(
 		<div className='containerAbout'>
-			<h1 className='title-form'>Slide in my Dms</h1>
+			<h1 className='title-form'>Contact Me</h1>
 			<form ref={form}>
 				<input className='inputs' type='text' name='name' placeholder='Name'/>
 				<input className='inputs' type='text' name='email' placeholder='Email'/>

@@ -10,7 +10,8 @@ const Skill = ({ name }) => (
 
 export default function Skills() {
   return (
-    <section className="skills-box">
+    <div>
+      <h1 className="title-skills">Technologies I work with:</h1>
       <div className="skills">
         <Skill name="HTML" />
         <Skill name="CSS" />
@@ -25,6 +26,6 @@ export default function Skills() {
         <Skill name="Git" />
         <Skill name="Bootstrap" />
       </div>
-    </section>
+    </div>
   );
 }
