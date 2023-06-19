@@ -4,22 +4,20 @@ import './Projects.css'
 export default function Projects () {
 	return (
 		<section id="portfolio">
-		  <div className="container portfolio__container">
+		  <div className="projects-container">
 			{projects.map((p) => (
-			  <article className="portfolio__item" key={p.id}>
-				<div className="portfolio__item-image">
-				  <img src={p.img} alt={p.title} />
+			  <article className="project" key={p.id}>
+				  <img src={p.img} alt={p.title}  className='project-img'/>
+				<div className="project-content">
+				  <h3 className='project-title'>{p.title}</h3>
+				  <p className='project-text'>{p.descr}</p>
+				  <p className='project-text'>Made with: {p.tech}</p>
 				</div>
-				<div className="portfolio__item-content">
-				  <h3>{p.title}</h3>
-				  <p>{p.descr}</p>
-				  <p>{p.tech}</p>
-				</div>
-				<div className="portfolio__item-cta">
+				<div className="project-links">
 				  <a
 					href={p.github}
 					target="_blank"
-					className="btn"
+					className="btn-github"
 					rel="noreferrer"
 				  >
 					GitHub
@@ -27,7 +25,7 @@ export default function Projects () {
 				  <a
 					href={p.link}
 					target="_blank"
-					className="btn btn-primary"
+					className="btn-video"
 					rel="noreferrer"
 				  >
 					Video
